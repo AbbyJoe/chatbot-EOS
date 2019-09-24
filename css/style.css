@@ -62,7 +62,11 @@ p {
     font-size: 23px;
     font-weight: 500;
 }
-
+.welcome-text {
+    font-size: 17px;
+    color: #274970;
+    line-height: 1.7rem;
+}
 .content-section {
     text-align: center;
     position: relative;
@@ -70,7 +74,9 @@ p {
 .mySlides {
     display: none
 }
-
+span {
+    font-weight: 700;
+}
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
@@ -85,9 +91,9 @@ p {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: #fff;
+  color: #274970;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -120,7 +126,7 @@ p {
     border: 1px solid #ccc;
     background: #FFF;
     margin: 0 0 5px;
-    padding: 15px;
+    padding: 12px;
     font-size: 16px;
     margin-top: 20px;
  }
@@ -138,7 +144,7 @@ input:focus {
     display: inline-block;
     margin-top: 10px;
     width: 60%;
-    padding: 10px 30px;
+    padding: 7px 30px;
     background-color: #274970;
     text-decoration: none;
     color: #fff;
